@@ -1,0 +1,127 @@
+/* Colors
+    #7E6551 Pastel Brown
+    #938581 Cinereous
+    #466362 Deep Space Sparkel
+    #8896AB Gray Blue
+    #C5D5E4 Columbia Blue */
+
+
+/* Global Properties */
+body {
+    background-color: #938581;
+    width: auto;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #8896AB;
+    text-shadow: 2px 2px 4px black;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 1%;
+    text-align: center;
+    width: 40%;
+    line-height: 2;
+    background-color: rgba(250, 250, 250, 0.2);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin: 0 auto;
+}
+
+.button {
+    text-decoration: none;
+    font: menu;
+    display: inline-block;
+    padding: 2px 8px;
+    background: ButtonFace;
+    color: ButtonText;
+    border-style: solid;
+    border-width: 2px;
+    border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+}
+
+.button:active {
+    border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;
+}
+
+.container {
+    background-color: rgba(70, 99, 98, 0.2);
+    margin: 0 auto;
+    padding: 1px;
+}
+
+/* Header */
+header {
+    font-size: 2em;
+    color: #C5D5E4;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+header hr {
+    opacity: 0.5;
+    font-size: 0.5em;
+}
+
+
+/* Image Properties */
+.invis .image {
+    width: 45%;
+    border-radius: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    float: right;
+    margin: 3%;
+}
+
+.window {
+    width: 65%;
+    border-radius: 4%;
+}
+
+@media only screen and (min-width: 700px) {
+    .invis .image {
+        clear: initial;
+        width: 25%;
+        display: block;
+        float: right;
+        margin-top: -18px;
+        position: inherit;
+    }
+    h1 {
+        margin-left: 50px;
+    }
+    h2 {
+        margin-left: 50px;
+    }
+    p {
+        margin-left: 50px;
+    }
+    ul {
+        margin-left: 25px;
+    }
+    .window {
+        width: 25%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 0 rgba(0, 0, 0, 0.19);
+        margin-left: 50px;
+    }
+    .subscrip {
+        clear: both;
+    }
+}

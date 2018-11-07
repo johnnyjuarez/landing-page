@@ -1,0 +1,98 @@
+/* Colors
+    #7E6551 Pastel Brown
+    #938581 Cinereous
+    #466362 Deep Space Sparkel
+    #8896AB Gray Blue
+    #C5D5E4 Columbia Blue */
+
+
+/* Mobile View */
+
+/* Global Properties */
+body {
+    background-color: #938581;
+    width: auto;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #8896AB;
+    text-shadow: 2px 2px 4px black;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
+}
+
+/* Header */
+header {
+    font-size: 1.75em;
+    color: #C5D5E4;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1;
+}
+
+header h1 {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+header hr {
+    opacity: 0.5;
+    font-size: 0.5em;
+}
+
+label {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+li {
+    list-style: none;
+}
+
+.home-btn {
+    text-decoration: none;
+    font: menu;
+    display: block;
+    padding: 2px 8px;
+    background: ButtonFace;
+    color: ButtonText;
+    border-style: solid;
+    border-width: 2px;
+    border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+    float: left;
+}
+
+.home-btn:active {
+    border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;
+}
+
+/* Form Styling */
+
+form {
+    margin: 0 auto;
+}
+
+input {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 3px;
+}
+
+/* Desktop View */
+
+@media only screen and (min-width: 700px) {
+    body {
+        margin: 0 auto;
+    }
+
+}
